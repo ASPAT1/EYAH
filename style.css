@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.headerHero{
+    background-color: rgb(103, 197, 228);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+/* .logo img{
+    width: 50%;
+} */
+
+nav{
+    display: flex;
+    gap: auto;
+    align-items: center;
+}
+
+.navBar{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navBar li a{
+    font-family: BM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 10.23px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+select{
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+/* styling the hero */
+.hero{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textSide{
+    margin-left: 6rem;
+}
+
+h2{
+color: #fff;
+}
+.curve{
+    font-size: 10%;
+}
+.textSide h2{
+font-family: DM Sans;
+font-size: 64px;
+font-weight: 700;
+text-align: left;
+}
+.curve img{
+    width: 20%;
+}
+.imageSide img{
+    width: 100%;
+}
+.textSide p{
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: #fff;
+width: 70%;
+}
+
+.demo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.demo button{
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.83px;
+text-align: left;
+color: #00A8DB;
+background-color: #fff;
+padding: 1rem 1.5rem;
+border: none;
+cursor: pointer;
+border-radius: 0.7rem;
+}
+/* just to let the clicking button change color */
+.demo button:hover{
+    color: #fff;
+    background-color: deepskyblue;
+}
+nav button:hover{
+    color: #fff;
+    background-color: rgb(68, 140, 164);
+}
+.sponsors{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.sponsors img{
+    width: 10%;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.postimages{
+    width: 100%;
+}
+.postimages{
+    width: 40%;
+    position: relative;
+}
+.postText{
+    width: 45%;
+}
+.postText h3{
+    font-family: DM Sans;
+    width: 85%;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    color: #034D82;;
+}
+.postText p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.30000001192092896px;
+    color: #6b99c2;
+    width: 485px;
+    height: 96px;
+    top: 128px;
+    gap: 0px;
+    opacity: 0px;
+}
+.postText a{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.83px;
+    color: #04AADD;
+}
+.arrow{
+   position: absolute;
+   margin-top: 5rem;
+   z-index: -2;
+}
