@@ -156,7 +156,7 @@ nav button:hover{
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0.30000001192092896px;
-    color: #034D82;;
+    color: #034D82;
 }
 .postText p{
     font-family: DM Sans;
@@ -183,3 +183,312 @@ nav button:hover{
    margin-top: 5rem;
    z-index: -2;
 }
+.schedulepages{
+    background-color: #fff;
+    padding: 3rem 2rem;
+    margin: 8%;
+    display: flex;
+}
+.scheduletext{
+    align-items: center;
+}
+.scheduletext h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 51px;
+    color: #034D82;
+}
+.scheduletext p{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+color: #90A3B4;
+}
+
+.scheduletext ul{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+color: #90A3B4;
+}
+
+.hashtag{
+    background-color: #EFFBFF;
+    padding: 4rem 0rem;
+    margin-top: 5rem;
+}
+.tophashtag{
+    text-align: center;
+}
+.tophashtag h2{
+    font-family: DM Sans;
+    color: #034D82;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+}
+.tophashtag p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+color: #8EA9C1;
+margin: auto;
+padding: 0%;
+}
+.cardWrap{
+    gap: 2rem;
+    display: flex;
+    align-items:center;
+    margin: auto;
+    width: 80%;
+    height: 60vh;
+}
+.card{
+    background-color: #FFFFFF;
+    padding: 1rem 0.5rem, 3rem, 2rem;
+    border-radius: 8px;
+    height: 240px;
+    
+}
+
+.card h5{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34x;
+    color: #000000;
+    padding: 1rem 0rem;
+}
+
+.card p{
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+padding: 1rem;
+color: #8EA9C1;
+}
+
+.card:hover{
+    background: rgb(19, 111, 176);
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 8px;
+}
+
+.growth{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 0;
+}
+
+.growthLeft{
+    font-family: DM Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+color: #034D82
+}
+.growthLeft p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: #90A3B4;
+}
+.growthLeft h3{
+    font-family: DM Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+color: #034D82;
+
+}
+.growthRight{
+    font-family: DM Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+color: #034D82
+}
+.growthRight p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #90A3B4;
+    margin-left: 3rem;
+}
+
+.growthText p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    line-height: 24px;
+    color: #90A3B4;
+    margin-left: 3rem;
+}
+
+.heart{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 3rem;
+}
+.heartName h5{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+color:#034D82;
+}
+
+.heartName p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #90A3B4;
+}
+.growthText p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    font: italic;
+    color: #034D82;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem
+
+}
+
+.brandText{
+    font-family: DM Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 44x;
+color: #FFF;
+width: 40%;
+}
+.brandText p{
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 32x;
+color: #FFF;
+padding: 1rem orem;
+}
+.brandText h3{
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    width: 55%;
+    font-style: bold;
+}
+
+.brand{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5rem;
+    padding: 3rem;
+    display: flex;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/Mask\ Group.png);
+    border-radius: 6px;
+}
+.customer{
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+}
+.brandbutton{
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    color: #034D82;
+    background-color: #fff;
+}
+
+footer{
+    background-color: #081315;
+    color: #fff;
+    padding: 3rem 0;
+    width: 100%;
+}
+.footerLogo{
+    width: 100%;
+}
+.footWrap{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    
+
+}
+.footRight{
+    gap: 4rem;
+    width: 60%;
+    display: flex;
+}
+.footLeft{
+    width: 40%;
+}
+
+li{
+    list-style-type: none;
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+color:#D3D6D8;
+margin-bottom: 1rem;
+
+}
+.footRight h4{
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23.44px;
+color: #FFF;
+margin-bottom: 1.5rem;
+}
+.footLeft p{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 1rem 0;
+    width: 68%;
+}
+.footerLogo{
+    width: 21%;
+}
+.Copyright{
+    text-align: center;
+    margin-top: 4rem;
+}
+.Copyright{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.83px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
