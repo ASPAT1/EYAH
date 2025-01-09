@@ -2,7 +2,7 @@
 
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0.7%;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -107,6 +107,7 @@ text-align: left;
 color: #00A8DB;
 background-color: #fff;
 padding: 1rem 1.5rem;
+width: 25%;
 border: none;
 cursor: pointer;
 border-radius: 0.7rem;
@@ -139,10 +140,10 @@ nav button:hover{
     width: 100%;
     margin: auto;
 }
-.postimages{
+.Iphone{
     width: 100%;
 }
-.postimages{
+.Iphone{
     width: 40%;
     position: relative;
 }
@@ -183,28 +184,55 @@ nav button:hover{
    margin-top: 5rem;
    z-index: -2;
 }
+
+.arrow img{
+    width: 100%;
+}
 .schedulepages{
     background-color: #fff;
     padding: 3rem 2rem;
     margin: 8%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: auto;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    gap: 4rem;
 }
 .scheduletext{
-    align-items: center;
+    width: 45%;
 }
 .scheduletext h3{
     font-family: DM Sans;
     font-size: 36px;
-    font-weight: 600;
-    line-height: 51px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    width: 100%;
     color: #034D82;
 }
 .scheduletext p{
     font-family: DM Sans;
-font-size: 18px;
+font-size: 16px;
 font-weight: 400;
 line-height: 32px;
 color: #90A3B4;
+width: 100%;
+}
+.scheduletext a{
+    width: 243px;
+    height: 21px;
+    top: 2410px;
+    left: 140px;
+    color: #04AADD;
+}
+.mackbook img{
+    width: 100%;
+}
+.mackbook{
+width: 45%;
 }
 
 .scheduletext ul{
@@ -244,14 +272,15 @@ padding: 0%;
     display: flex;
     align-items:center;
     margin: auto;
-    width: 80%;
+    width: 85%;
     height: 60vh;
 }
 .card{
     background-color: #FFFFFF;
-    padding: 1rem 0.5rem, 3rem, 2rem;
+    padding: 1rem 0.5rem, 3rem, 1rem;
     border-radius: 8px;
-    height: 240px;
+    height: 300px;
+    width: 100%;
     
 }
 
@@ -261,12 +290,14 @@ padding: 0%;
     font-weight: 600;
     line-height: 34x;
     color: #000000;
-    padding: 1rem 0rem;
+    padding: 1rem 0;
 }
-
+.card img{
+    width: 25%;
+}
 .card p{
 font-family: DM Sans;
-font-size: 16px;
+font-size: 15px;
 font-weight: 400;
 line-height: 20px;
 padding: 1rem;
@@ -278,7 +309,8 @@ color: #8EA9C1;
     color: #fff;
     transform: scale(1.1);
     transition: 0.5s;
-    border-radius: 8px;
+    border-radius: 10px;
+    padding: 1.2rem;
 }
 
 .growth{
@@ -288,29 +320,23 @@ color: #8EA9C1;
     justify-content: space-between;
     padding: 6rem 0;
 }
-
-.growthLeft{
-    font-family: DM Sans;
-font-size: 36px;
-font-weight: 700;
-line-height: 52px;
-color: #034D82
-}
-.growthLeft p{
-    font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-color: #90A3B4;
-}
 .growthLeft h3{
     font-family: DM Sans;
 font-size: 36px;
 font-weight: 700;
 line-height: 52px;
 color: #034D82;
-
+width: 80%;
 }
+
+.growthLeft p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+color: #90A3B4;
+}
+
 .growthRight{
     font-family: DM Sans;
 font-size: 36px;
@@ -333,9 +359,10 @@ color: #034D82
     font-weight: 400;
     font-style: italic;
     margin-bottom: 1.5rem;
-    line-height: 24px;
+    line-height: 32px;
     color: #90A3B4;
     margin-left: 3rem;
+    width: 75%;
 }
 
 .heart{
@@ -346,7 +373,7 @@ color: #034D82
 }
 .heartName h5{
     font-family: DM Sans;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 34px;
 color:#034D82;
@@ -354,21 +381,10 @@ color:#034D82;
 
 .heartName p{
     font-family: DM Sans;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 28px;
     color: #90A3B4;
-}
-.growthText p{
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
-    font: italic;
-    color: #034D82;
-    margin-left: 3rem;
-    margin-bottom: 1.5rem
-
 }
 
 .brandText{
@@ -481,14 +497,342 @@ margin-bottom: 1.5rem;
     text-align: center;
     margin-top: 4rem;
 }
-.Copyright{
+.Copyright img{
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 20.83px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    color: rgb(228, 229, 230);
+    margin-top: 1rem;
+}
+
+.socials img{
+    width: 15%;
+}
+.Copyright img{
+   width: 5%;
 }
 
 
+@media (max-width: 1024px) {
+
+        .curve img{
+            width: 25%;
+        }
+        .textSide p{
+            width: 85%;
+            padding: 1rem 0;
+        }  
+        .demo button{
+            font-size: 16px;
+            width: 55%;
+    }
+
+    .demo{
+        margin-bottom: 3rem;
+    }
+    .imageSide{
+    width: 50%;
+    }
+    .textSide{
+        width: 50%;
+    }
+    .textSide h2{
+        font-size: 44px;
+        width: 100%;
+    }
+    .Iphone{
+        width: 50%
+    }
+    .postText{
+        width: 50%;
+    }
+    
+    .postText h3{
+        width: 100%;
+    }
+    .cardWrap{
+        gap: 1rem;
+        height: 70vh;
+    }
+    .card{
+        width: 100%;
+        height: 330px;
+    }
+    .growthLeft h3{
+        font-size: 26px;
+        width: 90%;
+    }
+.growthLeft p{
+    font-size: 16px;
+    width: 90%;
+}
+li{
+    font-size: 11px;
+}
+.brandbutton{
+    font-size: 15px;
+    width: 110%;
+}
+.footLeft p{
+font-size: 13px;
+
+}
+.footRight h4{
+    font-size: 15px;
+}
+.Copyright{
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        width: 100%;
+    }
+    .navBar{
+        margin-bottom: -1rem;
+    }
+    .logo{
+        width: 30%;
+    }
+    .textSide{
+        margin-left: 4rem;
+    }
+    .textSide h2{
+        font-size: 34px;
+        width: 100%;
+    }
+    .textSide p{
+        font-size: 13px;
+    }
+    .demo{
+        font-size: 14px;
+        width: 100%;
+        padding: 0.7rem 1rem;
+    }
+    .postText h3{
+        font-size: 28px;
+        line-height: 40px;
+        width: 100%
+    }
+    .postText p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 1rem 0rem;
+    }
+    .tophashtag{
+        font-size: 28px;
+        line-height: 52px;
+    }
+    .tophashtag p{
+        font-size: 14px;
+        width: 65%;
+    }
+    .cardWrap{
+        gap: 1rem;
+        height: 80vh;
+    }
+    .card{
+        padding: 1rem;
+    }
+    .card h5{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .card p{
+        width: 40%;
+    }
+    .footRight{
+        gap: 2rem;
+        width: 70%;
+    }
+    .footLeft{
+        width: 30%;
+    }
+    
+    li{
+    font-size: 12px;
+    
+    }
+    .footRight h4{
+    font-size: 14px;
+    }
+    .Copyright p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 425px){
+.logo{
+    width: 100%;
+}
+.navBar{
+    display: none;
+ }
+ .hero{
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+ }
+ .textSide{
+    margin-right: 0rem;
+    width: 100%;
+ }
+ .imageSide{
+    width: 100%;
+ }
+ .post{
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+
+.postText{
+    width: 100%;
+}
+.postText h3{
+    width: 100%;
+    font-weight: 700;
+    line-height: 55%;
+    font-size: 36px;
+   
+}
+.postText p{
+    font-size: 14px;
+    font-size: 400;
+    line-height: 32px;
+
+}
+.Iphone{
+    width: 80%;
+}
+.sponsors {
+    width: 30%;
+    margin:3rem auto;
+    display: block;
+}
+.sponsors img{
+   padding-bottom: 2rem;
+}
+.hashtag{
+    background-color: #EFFBFF;
+    padding: 4rem 0rem;
+    margin-top: 5rem;
+}
+.tophashtag{
+    text-align: center;
+}
+.tophashtag h2{
+    font-family: DM Sans;
+    color: #034D82;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+}
+.tophashtag p{
+    font-size: 14px;
+    width: 70%;
+}
+.cardWrap{
+   flex-direction: column;
+    width: 85%;
+    height: 60px;
+ 
+}
+.card{
+  width: 100%;
+    height: 250px;
+}
+.card img{
+    width: 20%;
+}
+.card:hover{
+    transform: scale(1);
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.card h5{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    padding: 1rem;
+}
+.card p{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30x;
+    padding: 0 1rem;
+}
+.growth{
+    flex-direction: column;
+
+}
+.growthLeft h3{
+font-size: 36%;
+width: 100%;
+}
+.growthLeft p{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+
+}
+.growthLeft{
+    margin-bottom: 2rem;
+}
+.growthText p{
+    font-size: 16px;
+    width: 100%;
+ }
+ .heartImage{
+width: 20%;
+ }
+ .heartName{
+    width: 65%;
+ }
+
+.brand{
+   width: 85%;
+   margin: auto;
+   margin-bottom: 5rem;
+   padding: 3rem;
+   flex-direction: column;
+}
+.customer{
+   margin: 2rem 0;
+}
+.footWrap{
+    flex-direction: column;
+    width: 85%;
+}
+.footRight{
+    flex-direction: column;
+    width: 100%;
+}
+.footLeft{
+    width: 100%;
+}
+li{
+
+font-size: 16px;
+font-weight: 400;
+
+}
+.footRight h4{
+font-size: 18px;
+
+}
+.footLeft p{
+   font-size: 16%;
+    width: 68%;
+}
+.Copyright{
+    text-align: center;
+    margin-top: 4rem;
+}
+}
