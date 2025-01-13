@@ -19,10 +19,6 @@ header{
     margin: auto;
 }
 
-/* .logo img{
-    width: 50%;
-} */
-
 nav{
     display: flex;
     gap: auto;
@@ -415,12 +411,12 @@ padding: 1rem orem;
 .brand{
     background-size: cover;
     background-repeat: no-repeat;
-    width: 85%;
+    width: 87%;
     margin: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     padding: 3rem;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -433,10 +429,10 @@ padding: 1rem orem;
     margin: auto;
 }
 .brandbutton{
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    color: #034D82;
-    background-color: #fff;
+    padding: 10rem;
+    border-radius: 0.5rem;
+    /* color: #034D82; */
+   color: #fff;
 }
 
 footer{
@@ -516,7 +512,7 @@ margin-bottom: 1.5rem;
 
 @media (max-width: 1024px) {
 
-        .curve img{
+  .curve img{
             width: 25%;
         }
         .textSide p{
@@ -574,6 +570,10 @@ li{
     font-size: 15px;
     width: 110%;
 }
+.brand{
+    width: 200%;
+    font-size: 30%;
+}
 .footLeft p{
 font-size: 13px;
 
@@ -583,6 +583,10 @@ font-size: 13px;
 }
 .Copyright{
     font-size: 13px;
+}
+.footerLogo{
+    width: 100%;
+    margin: auto;
 }
 }
 
@@ -607,18 +611,21 @@ font-size: 13px;
         font-size: 13px;
     }
     .demo{
-        font-size: 14px;
+        font-size: 10px;
         width: 100%;
         padding: 0.7rem 1rem;
     }
+    .Iphone{
+        width: 50em
+    }
     .postText h3{
-        font-size: 28px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 41px;
         width: 100%
     }
     .postText p{
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 26px;
         padding: 1rem 0rem;
     }
@@ -632,17 +639,24 @@ font-size: 13px;
     }
     .cardWrap{
         gap: 1rem;
-        height: 80vh;
+        height: 75vh;
+        border-radius: 1.5rem;
     }
     .card{
-        padding: 1rem;
+        padding: 0.9rem;
     }
     .card h5{
         font-size: 16px;
         line-height: 24px;
     }
     .card p{
-        width: 40%;
+        width: 100%;
+        margin: auto;
+        font-size: 0.9rem;
+    }
+    .growth{
+        width: 80%;
+        margin: auto;
     }
     .footRight{
         gap: 2rem;
@@ -651,7 +665,15 @@ font-size: 13px;
     .footLeft{
         width: 30%;
     }
-    
+    .brand{
+        width: 200%;
+        font-size: 8%;
+    }
+    .brandbutton{
+        padding: auto;
+        width: 80;
+        margin-right: auto;
+    }
     li{
     font-size: 12px;
     
@@ -661,6 +683,10 @@ font-size: 13px;
     }
     .Copyright p{
         font-size: 12px;
+    }
+    .footerLogo{
+        width: 100%;
+        margin: auto;
     }
 }
 
@@ -752,7 +778,7 @@ font-size: 13px;
 .card:hover{
     transform: scale(1);
     transition: 0.5s;
-    border-radius: 8px;
+    border-radius: 9px;
 }
 .card h5{
     font-family: DM Sans;
@@ -770,7 +796,6 @@ font-size: 13px;
 }
 .growth{
     flex-direction: column;
-
 }
 .growthLeft h3{
 font-size: 36%;
@@ -837,182 +862,5 @@ font-size: 18px;
 }
 }
 @media (max-width: 320px){
-    .logo{
-        width: 65%;
-    }
-    .navBar{
-        display: none;
-     }
-     .hero{
-        flex-direction: column;
-        width: 100%;
-        margin: auto;
-        margin-top: 3.5rem;
-     }
-     .textSide{
-        margin-right: 2rem;
-        width: 100%;
-     }
-     .imageSide{
-        width: 100%;
-     }
-     .post{
-        flex-direction: column;
-        width: 85%;
-        margin: auto;
-    }
-    
-    .demo{
-        width: 27.5rem;
-    }
-    .postText{
-        width: 100%;
-    }
-    .postText h3{
-        width: 100%;
-        font-weight: 600;
-        line-height: 100%;
-        font-size: 30px;
-       
-    }
-    .postText p{
-        font-size: 13px;
-        font-size: 200;
-        line-height: 29px;
-    
-    }
-    .Iphone{
-        width: 100%;
-    }
-    .sponsors {
-        width: 30%;
-        margin:3rem auto;
-        display: block;
-        
-    }
-    .schedulepages{
-        font-size: 200;
-        margin: 3%;
-    }
-    .sponsors img{
-       padding-bottom: 2rem;
-    }
-    .hashtag{
-        background-color: #EFFBFF;
-        padding: 4rem 0rem;
-        margin-top: 5rem;
-    }
-    .tophashtag{
-        text-align: center;
-    }
-    .tophashtag h2{
-        font-family: DM Sans;
-        color: #034D82;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 52px;
-    }
-    .tophashtag p{
-        font-size: 14px;
-        width: 70%;
-    }
-    .cardWrap{
-       flex-direction: column;
-        width: 85%;
-        height: 60px;
-     
-    }
-    .card{
-      width: 100%;
-        height: 250px;
-    }
-    .card img{
-        width: 20%;
-    }
-    .card:hover{
-        transform: scale(1);
-        transition: 0.5s;
-        border-radius: 8px;
-    }
-    .card h5{
-        font-family: DM Sans;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 34px;
-        padding: 1rem;
-    }
-    .card p{
-        font-family: DM Sans;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 30x;
-        padding: 0 1rem;
-    }
-    .growth{
-        flex-direction: column;
-    
-    }
-    .growthLeft h3{
-    font-size: 36%;
-    width: 100%;
-    }
-    .growthLeft p{
-       font-size: 16px;
-       font-weight: 400;
-       line-height: 26px;
-    
-    }
-    .growthLeft{
-        margin-bottom: 2rem;
-    }
-    .growthText p{
-        font-size: 16px;
-        width: 100%;
-     }
-     .heartImage{
-    width: 20%;
-     }
-     .heartName{
-        width: 65%;
-     }
-    
-    .brand{
-       width: 85%;
-       margin: auto;
-       margin-bottom: 5rem;
-       padding: 3rem;
-       flex-direction: column;
-    }
-    .customer{
-       margin: 2rem 0;
-    }
-    .footWrap{
-        flex-direction: column;
-        width: 85%;
-    }
-    .footRight{
-        flex-direction: column;
-        width: 100%;
-    }
-    .footLeft{
-        width: 100%;
-    }
-    li{
-    
-    font-size: 16px;
-    font-weight: 400;
-    
-    }
-    .footRight h4{
-    font-size: 18px;
-    
-    }
-    .footLeft p{
-       font-size: 16%;
-        width: 68%;
-    }
-    .Copyright{
-        text-align: center;
-        margin-top: 4rem;
-    }
+    .logo: 100
 }
