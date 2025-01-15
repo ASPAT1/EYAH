@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url("https://fontts.googgleleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
-*{
-    margin: 0%;
-    padding: 0%;
+ *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-}
+ }
 
 .headerHero{
-    background-color: rgb(103, 197, 228);
+    background-color: #00a8db;
+}
+
+.logo img{
+    width: 100%;
 }
 
 header{
@@ -17,75 +21,76 @@ header{
     align-items: center;
     width: 85%;
     margin: auto;
+    margin-top: 2rem;
 }
 
 nav{
     display: flex;
-    gap: auto;
+    gap: 2rem;
     align-items: center;
 }
 
 .navBar{
     display: flex;
     gap: 2rem;
-    align-items: center;
 }
 
 .navBar li a{
-    font-family: BM Sans;
-    font-size: 15px;
+    font-family: DM Sans;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 10.23px;
+    line-height: 18.23px;
     letter-spacing: 0.30000001192092896px;
     text-align: center;
     color: white;
     text-decoration: none;
 }
 
-
 select{
     background: none;
     border: none;
     color: #fff;
 }
+nav button{
+    background: linear-gradient(278.21deg, #005490 1.66%, #328bcb 96.78%);
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
 
-/* styling the hero */
 .hero{
-    margin-top: 7%;
     display: flex;
     justify-content: space-between;
+    margin-top: 7rem;
 }
 
 .textSide{
     margin-left: 6rem;
 }
 
-h2{
-color: #fff;
-}
-.curve{
-    font-size: 10%;
-}
 .textSide h2{
-font-family: DM Sans;
-font-size: 64px;
-font-weight: 700;
-text-align: left;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
 }
+
+.textSide p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #fff;
+    width: 60%;
+}
+
 .curve img{
     width: 20%;
 }
+
 .imageSide img{
     width: 100%;
-}
-.textSide p{
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: left;
-color: #fff;
-width: 70%;
 }
 
 .demo{
@@ -95,258 +100,249 @@ width: 70%;
 }
 
 .demo button{
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 500;
-line-height: 20.83px;
-text-align: left;
-color: #00A8DB;
-background-color: #fff;
-padding: 1rem 1.5rem;
-width: 25%;
-border: none;
-cursor: pointer;
-border-radius: 0.7rem;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.83px;
+    text-align: center;
+    color: #00a8db;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
 }
-/* just to let the clicking button change color */
+
 .demo button:hover{
     color: #fff;
-    background-color: deepskyblue;
+    background: linear-gradient(278.21deg, #005490 1.66%, #328bcd 96.78%);
 }
+
 nav button:hover{
-    color: #fff;
-    background-color: rgb(68, 140, 164);
+    color: #005490;
+    background: #fff;
 }
+
 .sponsors{
     width: 80%;
     margin: auto;
     display: flex;
-    gap: 10rem;
+    gap: 5rem;
     align-items: center;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+
 .sponsors img{
-    width: 10%;
+    width: 100%;
 }
-.post{
+
+.Post{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
-.Iphone{
-    width: 100%;
-}
-.Iphone{
+
+.postImage{
     width: 40%;
-    position: relative;
 }
+
 .postText{
     width: 45%;
 }
+
 .postText h3{
     font-family: DM Sans;
-    width: 85%;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0.30000001192092896px;
     color: #034D82;
+    width: 85%;
 }
+
 .postText p{
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
-    line-height: 28.5px;
+    line-height: 32px;
     letter-spacing: 0.30000001192092896px;
-    color: #6b99c2;
-    width: 485px;
-    height: 96px;
-    top: 128px;
-    gap: 0px;
-    opacity: 0px;
+    color: #90A3B4;
 }
+
 .postText a{
     font-family: DM Sans;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 20.83px;
+    letter-spacing: 0.30000001192092896px;
     color: #04AADD;
 }
+
+.iphone{
+    position: absolute;
+    width: 100%;
+}
+
 .arrow{
-   position: absolute;
-   margin-top: 5rem;
-   z-index: -2;
+    position: relative;
+    z-index: -2;
 }
 
 .arrow img{
     width: 100%;
 }
-.schedulepages{
-    background-color: #fff;
-    padding: 3rem 2rem;
-    margin: 8%;
+
+.schedule{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin-top: auto;
+    margin: auto;
     margin-top: 10rem;
     margin-bottom: 6rem;
     gap: 4rem;
 }
-.scheduletext{
-    width: 45%;
+
+.scheduleText{
+    width: 40%;
 }
-.scheduletext h3{
+
+.scheduleText h3{
     font-family: DM Sans;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0.30000001192092896px;
-    width: 100%;
     color: #034D82;
+    width: 100%;
 }
-.scheduletext p{
+
+.scheduleText p{
     font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 32px;
-color: #90A3B4;
-width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.30000001192092896px;
+    color: #90A3B4;
+    width: 100%;
 }
-.scheduletext a{
+
+.schedule li{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.83px;
+    letter-spacing: 0.30000001192092896px;
+    color: #90A3B4;
+    margin-top: 1.5rem;
+}
+
+.schedule a{
     width: 243px;
     height: 21px;
     top: 2410px;
-    left: 140px;
     color: #04AADD;
 }
-.mackbook img{
+
+.scheduleImage img{
     width: 100%;
 }
-.mackbook{
-width: 45%;
+
+.scheduleImage{
+    width: 60%;
 }
 
-.scheduletext ul{
-    font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 20.83px;
-color: #90A3B4;
-}
-
-.hashtag{
-    background-color: #EFFBFF;
-    padding: 4rem 0rem;
+.hastag{
+    background: #effbff;
+    padding: 4rem;
     margin-top: 5rem;
 }
-.tophashtag{
+
+.topHashtag{
     text-align: center;
 }
-.tophashtag h2{
+
+.topHashtag h2{
     font-family: DM Sans;
-    color: #034D82;
     font-size: 36px;
-    font-weight: 700;
-    line-height: 52px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #8EA9C1;
 }
-.tophashtag p{
+
+.topHashtag P{
     font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 32px;
-color: #8EA9C1;
-margin: auto;
-padding: 0%;
-}
-.cardWrap{
-    gap: 2rem;
-    display: flex;
-    align-items:center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #8EA9C1;
+    padding: 1rem 0;
     margin: auto;
+    width: 45%;
+}
+
+.cardWrap{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
     width: 85%;
+    margin: auto;
     height: 60vh;
 }
+
 .card{
-    background-color: #FFFFFF;
-    padding: 1rem 0.5rem, 3rem, 1rem;
+    background: #fff;
+    padding: 1rem 0.5rem 3rem 1rem;
     border-radius: 8px;
-    height: 300px;
     width: 100%;
-    
+}
+
+.card img{
+    width: 25%;
+}
+
+.card:hover{
+    background: #034D82;
+    color: #fff;
+    transform: scale(1);
+    transition: 0.5s;
+    border-radius: 8px;
 }
 
 .card h5{
     font-family: DM Sans;
     font-size: 20px;
     font-weight: 600;
-    line-height: 34x;
-    color: #000000;
-    padding: 1rem 0;
-}
-.card img{
-    width: 25%;
-}
-.card p{
-font-family: DM Sans;
-font-size: 15px;
-font-weight: 400;
-line-height: 20px;
-padding: 1rem;
-color: #8EA9C1;
+    line-height: 34px;
 }
 
-.card:hover{
-    background: rgb(19, 111, 176);
-    color: #fff;
-    transform: scale(1.1);
-    transition: 0.5s;
-    border-radius: 10px;
-    padding: 1.2rem;
+.card p{
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    /* line-height: 20px; */
+    padding: 1rem;
+    margin: auto;
 }
 
 .growth{
     width: 85%;
     margin: auto;
     display: flex;
+    background: #f4f7f8;
     justify-content: space-between;
-    padding: 6rem 0;
+    padding: 7rem 0;
 }
+
 .growthLeft h3{
     font-family: DM Sans;
-font-size: 36px;
-font-weight: 700;
-line-height: 52px;
-color: #034D82;
-width: 80%;
-}
-
-.growthLeft p{
-    font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 32px;
-color: #90A3B4;
-}
-
-.growthRight{
-    font-family: DM Sans;
-font-size: 36px;
-font-weight: 700;
-line-height: 52px;
-color: #034D82
-}
-.growthRight p{
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #90A3B4;
-    margin-left: 3rem;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #034D82;
 }
 
 .growthText p{
@@ -354,28 +350,36 @@ color: #034D82
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 1.5rem;
     line-height: 32px;
-    color: #90A3B4;
-    margin-left: 3rem;
-    width: 75%;
+    color:#034D82;
+    margin-bottom: 1.5rem;
+    width: 72%;
 }
 
-.heart{
+.growthLeft p{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+color: #5a8cb8;
+}
+
+.hart{
     display: flex;
     gap: 1rem;
     align-items: center;
     margin-left: 3rem;
 }
-.heartName h5{
+
+.hartName h5{
     font-family: DM Sans;
     font-size: 20px;
     font-weight: 700;
     line-height: 34px;
-color:#034D82;
+    color: #034D82;
 }
 
-.heartName p{
+.hartName p{
     font-family: DM Sans;
     font-size: 15px;
     font-weight: 400;
@@ -383,93 +387,116 @@ color:#034D82;
     color: #90A3B4;
 }
 
-.brandText{
-    font-family: DM Sans;
-font-size: 32px;
-font-weight: 700;
-line-height: 44x;
-color: #FFF;
-width: 40%;
-}
-.brandText p{
-    font-family: DM Sans;
-font-size: 14px;
-font-weight: 500;
-line-height: 32x;
-color: #FFF;
-padding: 1rem orem;
-}
-.brandText h3{
-    font-family: DM Sans;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    width: 55%;
-    font-style: bold;
+.brand{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 3rem;
+    align-items: center;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-image: url(images/Mask\ Group.png);
+    background-size: cover;
+    margin-bottom: 5rem;
 }
 
-.brand{
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 87%;
-    margin: auto;
-    margin-bottom: 3rem;
-    padding: 3rem;
-    display: flex;
-    gap: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url(images/Mask\ Group.png);
-    border-radius: 6px;
+.brandLeft h3{
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #fff;
+    width: 55%;
 }
-.customer{
+
+.brandLeft p{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #fff;
+    padding: 0.5rem 0rem;
+}
+
+.customers{
     display: flex;
+    margin: auto;
     gap: 1rem;
+    align-items: center;
+}
+
+.customersRight{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.brandRight{
+    width: 20%;
+}
+
+.brandRight button{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #00a8db;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 1.1rem;
+    border-radius: 7px;
+    width: 66%;
     margin: auto;
 }
-.brandbutton{
-    padding: 10rem;
-    border-radius: 0.5rem;
-    /* color: #034D82; */
-   color: #fff;
+
+.brandRight button:hover{
+    color: #fff;
+    background: linear-gradient(278.21deg, #005490 1.66%, #328bcb 96.78%);
 }
 
 footer{
     background-color: #081315;
     color: #fff;
     padding: 3rem 0;
-    width: 100%;
+    width: 100%
 }
-.footerLogo{
-    width: 100%;
+
+.footLogo img{
+    width: 20%;
 }
+
 .footWrap{
     display: flex;
     width: 85%;
     margin: auto;
-    
+}
 
-}
 .footRight{
-    gap: 4rem;
-    width: 60%;
     display: flex;
+    gap: 4.1rem;
+    width: 60%;
 }
+
 .footLeft{
-    width: 40%;
+    width: 30%;
 }
 
 li{
-    list-style-type: none;
     font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 20.83px;
-color:#D3D6D8;
-margin-bottom: 1rem;
-
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.83px;
+    color: #d3d6d8;
+    margin-bottom: 1rem;   
 }
+
 .footRight h4{
     font-family: DM Sans;
 font-size: 18px;
@@ -478,127 +505,155 @@ line-height: 23.44px;
 color: #FFF;
 margin-bottom: 1.5rem;
 }
+
 .footLeft p{
     font-family: DM Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
+    color: #d3d6d8;
     padding: 1rem 0;
     width: 68%;
 }
-.footerLogo{
-    width: 21%;
-}
-.Copyright{
+
+.copyright{
     text-align: center;
     margin-top: 4rem;
 }
-.Copyright img{
+
+.copyright p{
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 20.83px;
-    color: rgb(228, 229, 230);
+    color: #fff;
     margin-top: 1rem;
 }
 
 .socials img{
-    width: 15%;
-}
-.Copyright img{
-   width: 5%;
+    width: 10%;
 }
 
+.copyright img{
+    width: 4%;
+}
 
-@media (max-width: 1024px) {
 
-  .curve img{
-            width: 25%;
-        }
-        .textSide p{
-            width: 85%;
-            padding: 1rem 0;
-        }  
-        .demo button{
-            font-size: 16px;
-            width: 55%;
+
+
+@media (max-width: 1024px){
+    .textSide h2{
+        font-size: 44px;
+        width: 100%;
+    }    
+    .textSide p{
+        width: 85%;
+        padding: 1rem 0;
     }
-
+    .curve img{
+        width: 25%;
+    }
+    .demo button{
+        font-size: 16px;
+        width: 55%;
+    }
     .demo{
         margin-bottom: 3rem;
-    }
-    .imageSide{
-    width: 50%;
     }
     .textSide{
         width: 50%;
     }
-    .textSide h2{
-        font-size: 44px;
-        width: 100%;
+    .imageSide{
+        width: 50%;
     }
-    .Iphone{
-        width: 50%
+    .iphone{
+        width: 50%;
     }
     .postText{
         width: 50%;
     }
-    
     .postText h3{
         width: 100%;
+    }
+    .scheduleText p{
+        font-size: 13px;
+        width: 105%;
+    }
+    
+    .schedule li{
+        font-size: 13px;
+        margin-top: 1rem;
+    }
+    .scheduleImage{
+        width: 85vh;
+    }
+    .scheduleText h3{
+        font-size: 28px;
+    }
+    .topHashtag p{
+        font-size: 14px;
+        width: 55%;
+        margin-top: 1.5rem;
     }
     .cardWrap{
         gap: 1rem;
         height: 70vh;
     }
     .card{
-        width: 100%;
         height: 330px;
+    }
+    .card h5{
+        font-size: 16px;
     }
     .growthLeft h3{
         font-size: 26px;
         width: 90%;
     }
-.growthLeft p{
-    font-size: 16px;
-    width: 90%;
-}
-li{
-    font-size: 11px;
-}
-.brandbutton{
-    font-size: 15px;
-    width: 110%;
-}
-.brand{
-    width: 200%;
-    font-size: 30%;
-}
-.footLeft p{
-font-size: 13px;
-
-}
-.footRight h4{
-    font-size: 15px;
-}
-.Copyright{
-    font-size: 13px;
-}
-.footerLogo{
-    width: 100%;
-    margin: auto;
-}
+    .growthLeft p{
+        font-size: 16px;
+        width: 90%;
+    }
+    .growthRight{
+        margin-left: 4rem;
+        width: 100%;
+    }
+    .growthText p{
+        font-size: 16px;
+        width: 90%;
+    }
+    .hartName h5{
+        font-size: 20px;
+    }
+    .hartName p{
+        font-size: 15px;
+    }
+    .brandRight button{
+        font-size: 12px;
+        width: 110%;
+    }
+    li{
+        font-size: 11px;
+    }
+    .footRight h4{
+        font-size: 15px;
+    }
+    .footLeft p{
+        font-size: 13px;
+    }
+    .copyright p{
+        font-size: 13px
+    }
 }
 
 @media screen and (max-width: 768px){
     nav{
-        width: 100%;
+        width: 80%;
     }
     .navBar{
         margin-bottom: -1rem;
     }
     .logo{
-        width: 30%;
+        width: 20%;
     }
     .textSide{
         margin-left: 4rem;
@@ -610,257 +665,129 @@ font-size: 13px;
     .textSide p{
         font-size: 13px;
     }
-    .demo{
-        font-size: 10px;
+    .demo button{
+        font-size: 14px;
         width: 100%;
         padding: 0.7rem 1rem;
     }
-    .Iphone{
-        width: 50em
-    }
     .postText h3{
-        font-size: 25px;
-        line-height: 41px;
-        width: 100%
+        font-size: 28px;
+        line-height: 40px;
+        width: 100%;
     }
     .postText p{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 26px;
         padding: 1rem 0rem;
     }
-    .tophashtag{
+    .scheduleText h3{
+        font-size: 20px;
+        line-height:36px;
+        width: 100%;
+    }
+    .scheduleText p{
+        font-size: 13px;
+        line-height: 26px;
+        width: 100%;
+    }
+    .schedule li{
+        font-size: 13px;
+        margin-top: 0.5rem;
+    }
+    .scheduleImage{
+        width: 50%;
+    }
+    .topHashtag h2{
         font-size: 28px;
         line-height: 52px;
     }
-    .tophashtag p{
+    .topHashtag p{
         font-size: 14px;
         width: 65%;
     }
     .cardWrap{
         gap: 1rem;
-        height: 75vh;
-        border-radius: 1.5rem;
+        height: 80vh;
     }
     .card{
-        padding: 0.9rem;
+        padding: 1rem;
     }
     .card h5{
         font-size: 16px;
         line-height: 24px;
     }
     .card p{
-        width: 100%;
-        margin: auto;
-        font-size: 0.9rem;
+        font-size: 13px;
     }
-    .growth{
+    .card img{
+        width: 40%;
+    }
+    .growthLeft h3{
+        font-size: 29px;
+        line-height: 40px;
+        width: 90%;
+    }
+    .growthLeft p{
+        font-size: 15px;
+        width: 110%;
+        line-height: 75%;
+        margin-top: 1.5rem;
+    }
+    .rightImages{
+        gap: 1rem;
+        width: 60%;
+    }
+    .growthText p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .hart{
+        margin-top: -2rem;
+        gap: 0.5rem;
+    }
+    .hartName h5{
+        font-size: 14px;
+    }
+    .hartName p{
+        font-size: 0.6rem;
+        width: 100%;
+    }
+    .brandLeft h3{
+        font-size: 30px;
+        line-height: 39px;
+        width: 60%;
+    }
+    .brandRight{
+        width: 41%;
+    }
+    .brandRight button{
+        font-size: 12px;
         width: 80%;
-        margin: auto;
     }
     .footRight{
         gap: 2rem;
         width: 70%;
     }
-    .footLeft{
-        width: 30%;
-    }
-    .brand{
-        width: 200%;
-        font-size: 8%;
-    }
-    .brandbutton{
-        padding: auto;
-        width: 80;
-        margin-right: auto;
-    }
     li{
-    font-size: 12px;
-    
-    }
-    .footRight h4{
-    font-size: 14px;
-    }
-    .Copyright p{
         font-size: 12px;
     }
-    .footerLogo{
-        width: 100%;
-        margin: auto;
+    .footRight h4{
+        font-size: 14px;
+    }
+    .copyright p{
+        font-size: 12px;
+    }
+    .customers{
+        width: 20%;
     }
 }
 
-@media (max-width: 425px){
-.logo{
+@media(max-width: 425px){
+.logo img{
     width: 100%;
 }
-.navBar{
+nav{
     display: none;
- }
- .hero{
-    flex-direction: column;
-    width: 85%;
-    margin: auto;
-    margin-top: 4rem;
- }
- .textSide{
-    margin-right: 0rem;
-    width: 100%;
- }
- .imageSide{
-    width: 100%;
- }
- .post{
-    flex-direction: column;
-    width: 85%;
-    margin: auto;
 }
-
-.postText{
-    width: 100%;
-}
-.postText h3{
-    width: 100%;
-    font-weight: 700;
-    line-height: 55%;
-    font-size: 36px;
-   
-}
-.postText p{
-    font-size: 14px;
-    font-size: 400;
-    line-height: 32px;
-
-}
-.Iphone{
-    width: 80%;
-}
-.sponsors {
-    width: 30%;
-    margin:3rem auto;
-    display: block;
-}
-.sponsors img{
-   padding-bottom: 2rem;
-}
-.hashtag{
-    background-color: #EFFBFF;
-    padding: 4rem 0rem;
-    margin-top: 5rem;
-}
-.tophashtag{
-    text-align: center;
-}
-.tophashtag h2{
-    font-family: DM Sans;
-    color: #034D82;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 52px;
-}
-.tophashtag p{
-    font-size: 14px;
-    width: 70%;
-}
-.cardWrap{
-   flex-direction: column;
-    width: 85%;
-    height: 60px;
- 
-}
-.card{
-  width: 100%;
-    height: 250px;
-}
-.card img{
-    width: 20%;
-}
-.card:hover{
-    transform: scale(1);
-    transition: 0.5s;
-    border-radius: 9px;
-}
-.card h5{
-    font-family: DM Sans;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 34px;
-    padding: 1rem;
-}
-.card p{
-    font-family: DM Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30x;
-    padding: 0 1rem;
-}
-.growth{
-    flex-direction: column;
-}
-.growthLeft h3{
-font-size: 36%;
-width: 100%;
-}
-.growthLeft p{
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 26px;
-
-}
-.growthLeft{
-    margin-bottom: 2rem;
-}
-.growthText p{
-    font-size: 16px;
-    width: 100%;
- }
- .heartImage{
-width: 20%;
- }
- .heartName{
-    width: 65%;
- }
-
-.brand{
-   width: 85%;
-   margin: auto;
-   margin-bottom: 5rem;
-   padding: 3rem;
-   flex-direction: column;
-}
-.customer{
-   margin: 2rem 0;
-}
-.footWrap{
-    flex-direction: column;
-    width: 85%;
-}
-.footRight{
-    flex-direction: column;
-    width: 100%;
-}
-.footLeft{
-    width: 100%;
-}
-li{
-
-font-size: 16px;
-font-weight: 400;
-
-}
-.footRight h4{
-font-size: 18px;
-
-}
-.footLeft p{
-   font-size: 16%;
-    width: 68%;
-}
-.Copyright{
-    text-align: center;
-    margin-top: 4rem;
-}
-}
-@media (max-width: 320px){
-    .logo: 100
 }
